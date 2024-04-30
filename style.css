@@ -92,10 +92,12 @@ footer{
     font-size: 13px;
     margin: 20px 0 0;
 }
+
 main{
-    width: 940xp;
+    width: 940px;
     margin: 0 auto;
 }
+
 form{
     margin: 40px 0;
 }
@@ -105,17 +107,17 @@ form label, form p{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
 .input-padrao{
     display: block;
     margin-bottom: 20px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     width: 50%;
 }
 
 .checkbox{
-    margin: 20px 0;
+    margin: 20px 0 ;
 }
-
 
 .enviar{
     width: 40%;
@@ -124,9 +126,8 @@ form label, form p{
     color: white;
     font-weight: bold;
     font-size: 18px;
-    border: nome;
-    border-radius: 5px; 
-
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
     transition: 1s all;
 }
@@ -134,4 +135,19 @@ form label, form p{
 .enviar:hover{
     background: red;
     transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 20px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, tr{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
