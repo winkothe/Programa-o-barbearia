@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+        <h1><img src="logo.png" alt="logo da barbearia"></h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="#">Produtos</a></li>
+                <li> <a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+       </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomeSobrenome">Nome Sobrenome</label>
+            <input type="text" id="nomeSobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="64" rows="10" class="input-padrao"></textarea>
+
+            <div>
+                <p>Como prefere nosso contato</p>
+                <label for="radio-email"><input type="radio" name="contatos" id="radio-email">
+                    Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contatos" id="radio-telefone">Telefone</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" name="contatos" id="radio-whatsapp">Whatsapp</label>
+                
+            </div>
+
+            <div>
+                <p>Qual horário prefere ser atendido</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+            
+            <label class="checkbox"><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por e-mail</label>
+
+<input type="submit" value="Enviar Formulario" class="enviar" >
+            </form>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png" alt="logo da barbearia alura">
+        <p  class="copyright"> &copy; Copyright Barbearia Alura - 2024</p>
+    </footer>
+    
+    </body>
+    </html>
